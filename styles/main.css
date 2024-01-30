@@ -455,7 +455,29 @@ table {
     height: 100%;
     bottom: 0;
     position: absolute;
-    width: 100%
+    width: 100%;
+    background-image: linear-gradient(to right,#D4145A,#FBB03B);
+}
+
+.custom-shape-divider-bottom-1706635028 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1706635028 svg {
+    position: relative;
+    display: block;
+    width: calc(184% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1706635028 .shape-fill {
+    fill: #FFFFFF;
 }
 
 @media only screen and (min-width:768px) and (min-height:570px) {
@@ -1139,14 +1161,14 @@ table {
     }
 }
 
-.Section--gradient,
+/* .Section--gradient,
 .Section--gradientFromBlack {
     background: url(../images/5960.png) center top/cover no-repeat #000;
 }
 
 .Section--gradient {
     background-position-y: center
-}
+} */
 
 .Section--padded {
     padding-bottom: 90pt;
