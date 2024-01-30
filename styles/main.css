@@ -1277,7 +1277,7 @@ table {
 }
 
 .Section--paper {
-    background: #fff;
+    background: black;
     color: #3d3d3d
 }
 
@@ -1890,9 +1890,9 @@ a:hover{
 {
     height: auto;
     width: 100%;
-    background: #d4aeae;
+    background: black;
     padding-top: 40px;
-    color: black;
+    color: white;
     padding-bottom: 70px;
 }
 
@@ -3294,7 +3294,7 @@ footer
 .countdown-container {
     text-align: center;
     margin-top: 50px; /* Adjust the margin as needed */
-    background-color: #74b894;
+    background-color: black;
 }
 
 .countdown-item {
