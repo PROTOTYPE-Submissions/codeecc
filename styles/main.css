@@ -1524,7 +1524,14 @@ table {
 }
 
 .Nav-center {
+    width: 100%;
     margin-right: 10px;
+    background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .Nav-center a:hover{
@@ -1551,6 +1558,7 @@ table {
 
 @media only screen and (min-width:768px) {
     .Nav-center {
+        width: 100%;
         margin-left: -60px;
         margin-top : -10px;
         margin-right: 10px;
@@ -3285,6 +3293,7 @@ footer
 
     .Nav-center
     {
+        width: 100%;
         margin-top: -100px;
     }
 }
