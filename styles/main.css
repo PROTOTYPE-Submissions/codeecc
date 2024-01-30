@@ -1,5 +1,8 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
 body, html {
     scrollbar-face-color: ThreeDFace !important;
     scrollbar-shadow-color: ThreeDDarkShadow !important;
@@ -41,7 +44,7 @@ a {
 }
 
 html {
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
@@ -162,7 +165,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: monospace, monospace;
+    font-family: 'Poppins', sans-serif;
     font-size: 1em
 }
 
@@ -551,6 +554,7 @@ table {
     bottom: 0;
     position: absolute;
     width: 100%;
+    padding-bottom: 1rem;
     background-image: linear-gradient(to right,#FF512F,#DD2476);
 }
 
@@ -1072,7 +1076,7 @@ table {
     #title
     {
         font-size: 20px;
-        font-family : 'Raleway', sans-serif;
+        font-family: 'Poppins', sans-serif;
     }
 }
 
@@ -1080,7 +1084,7 @@ table {
     .Text--heading {
         font-size: 32px;
         line-height: 40px;
-        font-family: 'Raleway', sans-serif !important;
+        font-family: 'Poppins', sans-serif;
     }
 }
 
@@ -1528,7 +1532,7 @@ table {
 }
 
 .Page {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
     line-height: 24px;
     height: 100%;
@@ -1803,7 +1807,7 @@ table {
     width: 43%;
     letter-spacing: 1px;
     word-spacing: 2px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 #overflow::-webkit-scrollbar {
@@ -1830,7 +1834,7 @@ a:hover{
     margin-top: 60px;
     width: 30%;
     margin-left: 5%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
 }
 
@@ -1904,7 +1908,7 @@ a:hover{
     letter-spacing: 1.5px;
     text-align: center;
     text-transform: none;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
 }
 
 .heading hr
@@ -1934,7 +1938,7 @@ a:hover{
 }
 
 .Container .about{
-    font-family: 'Raleway', sans-serif !important;  
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 1.5px;
     font-weight: 800; 
     font-size: 40px;
@@ -2487,7 +2491,7 @@ a:hover{
         left: -50%!important
     }
     .u-sm-size2of2 {
-        width: 100%!important
+        width: 65%!important
     }
     .u-sm-before2of2 {
         margin-left: 100%!important
@@ -2902,7 +2906,7 @@ a:hover{
 }
 
 html {
-  font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -3074,7 +3078,7 @@ textarea {
   color: #474544;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Helvetica', Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 0.875em;
   font-weight: bold;
   outline: none;
@@ -3228,7 +3232,7 @@ textarea {
 
 footer
 {
-    font-family:  'Raleway', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
 }
 
