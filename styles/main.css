@@ -1117,7 +1117,7 @@ table {
 
 .Text--medium {
     letter-spacing: .01em;
-    font-size: 20px;
+    font-size: 19px;
     line-height: 38px
 }
 
@@ -1525,13 +1525,7 @@ table {
 
 .Nav-center {
     width: 100%;
-    margin-right: 10px;
-    background: rgba( 255, 255, 255, 0.15 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 6px );
--webkit-backdrop-filter: blur( 6px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-right: 100px;
 }
 
 .Nav-center a:hover{
@@ -2323,7 +2317,7 @@ a:hover{
 }
 
 .u-size2of2 {
-    width: 100%!important
+    width: 85%!important
 }
 
 .u-before2of2 {
