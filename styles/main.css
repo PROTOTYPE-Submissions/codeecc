@@ -227,6 +227,17 @@ input::-moz-focus-inner {
     padding: 0
 }
 
+.link-icon{
+  background-color: white;  
+  color: black;
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:5px ;
+}
+
 input {
     line-height: normal
 }
@@ -679,7 +690,11 @@ table {
     font-size: 15px;
     margin: 0;
     padding: 20px 10px 0;
-    vertical-align: top
+    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .Icon,
@@ -2231,13 +2246,21 @@ a:hover{
 }
 
 .u-textCenter {
-    text-align: center!important
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .u-textCenter:nth-child(1)
 {
     margin: -10px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 
 @media screen and (max-width: 440px)
 {
