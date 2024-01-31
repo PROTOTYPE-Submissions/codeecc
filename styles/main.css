@@ -1008,7 +1008,7 @@ table {
     transform: translate(-1pc, 0) scale(.7)
 }
 
-.Sticky.is-fixed {
+/* .Sticky.is-fixed {
     position: fixed!important;
     top: -70px;
     -webkit-transition: -webkit-transform .3s;
@@ -1021,7 +1021,7 @@ table {
     transform: translateY(70px);
     -webkit-transform: translateY(70px) translateZ(0);
     transform: translateY(70px) translateZ(0)
-}
+} */
 
 .Text {
     letter-spacing: .02em;
