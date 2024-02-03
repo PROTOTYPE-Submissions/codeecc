@@ -51,7 +51,7 @@ html {
 
 body,
 p {
-    margin: 0
+    margin: 5px 0px;
 }
 
 article,
@@ -154,6 +154,10 @@ figure {
 hr {
     box-sizing: content-box;
     height: 0
+}
+.hey{
+    display: flex;
+    gap: 10px;
 }
 
 pre,
@@ -613,8 +617,11 @@ table {
 }
 
 .Container {
-    margin: 0 auto;
-    padding: 0 20px
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .Container--narrow {
@@ -622,7 +629,7 @@ table {
 }
 
 .Container--wide {
-    max-width: 75pc
+    max-width: 100%;
 }
 
 .Container--padded {
@@ -661,6 +668,7 @@ table {
 }
 
 .Grid {
+    width: 100%;
     display: block;
     font-size: 0;
     list-style: none;
@@ -2710,7 +2718,7 @@ a:hover{
         left: -100%!important
     }
     .u-md-size1of4 {
-        width: 33%!important
+        width: 25%!important
     }
     .u-md-before1of4 {
         margin-left: 25%!important
