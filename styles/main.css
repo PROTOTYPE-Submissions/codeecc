@@ -2230,7 +2230,7 @@ a:hover{
 }
 
 .u-marginTop {
-    margin-top: 1em!important
+    margin-top: 0.5em!important
 }
 
 .u-marginTop-x2 {
@@ -2314,7 +2314,7 @@ a:hover{
 }
 
 .u-size1of2 {
-    width: 50%!important;
+    width: 25%!important;
 }
 
 @media screen and (max-width:440px)
@@ -2344,7 +2344,7 @@ a:hover{
 }
 
 .u-size2of2 {
-    width: 85%!important
+    width: 65%!important
 }
 
 .u-before2of2 {
@@ -2658,7 +2658,7 @@ a:hover{
         left: -50%!important
     }
     .u-md-size2of2 {
-        width: 100%!important
+        width: 50%!important
     }
     .u-md-before2of2 {
         margin-left: 100%!important
@@ -3282,7 +3282,7 @@ footer
 
 .Center .row
 {
-    margin-top: 6em;
+    margin-top: 4em;
 }
 
 #photo img:hover
