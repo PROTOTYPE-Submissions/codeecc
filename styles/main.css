@@ -2314,7 +2314,7 @@ a:hover{
 }
 
 .u-size1of2 {
-    width: 25%!important;
+    width: 45%!important;
 }
 
 @media screen and (max-width:440px)
@@ -2344,7 +2344,7 @@ a:hover{
 }
 
 .u-size2of2 {
-    width: 65%!important
+    width: 100%!important
 }
 
 .u-before2of2 {
